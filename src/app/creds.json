@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sitegoldenpsycho",
+  "private_key_id": "a240b291bc186023ba3326d0c4674549c51efe6e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHtCKwhxhfcPMk\nezk+F8bfzNtYJKWmpApu64UWWWzawNWjAAmtVg0hjuY64oJZqWT5ZE8hY7oZHRHn\nJnBC9VF4pCmdP0K40kO7z8VKyDfRhi47nV8F3vO4gGhpnf0cYL8BjIvGJR9QT4sx\ni74IMh7hiKQpPpwPiJ7Ws5aJyV8QgOwA6mLGa+AdALnBxfr8dtF/cOMtzaW8xa5l\nncvzs/9G6LGDAbouteKzSAVlsMq43QCxpg9yoCs8J2S+4UU61nQcUWUxw454asPR\nH4Rygm4liJMYAL9qFCIMBZ7+d3oTF6aO97JEo6CVrinwYYJ6Dwbx9TXMiKoHbL7p\ngeAB5w8tAgMBAAECggEABT5XW744Ve0ytGwa8vvsv1yV9OMFckOhBCMy4bOSk3C9\n7i8JerzIRTWHAkxYstZw7ciysqcl6nEqGH47p4uDs0C47+hzXFtricdjTrfzjigL\ndNAUC5kwtyKBz7GTxRfvNiVWQOs44auhXiH8gDp/lHCttmkpBwZ6K2GkCmDygtOa\naW4QsUgZY9Mi49Y2tcEZOhtreiy4/1LczcLynCpEha4b4KZBfVoPvm0Ol2eqn9UV\nazZrOwnumzc5tURyE9qHPKlphWv1H1cwwHYsuv7uvbvZggFnPOjrtG7KaEy/JNRo\nsqrN+gSU1GRJcdJ/dsC2zngefdo63tEGkwnLVAe+SwKBgQDuUExFgF9AkIS9c9e1\ncTYMJFsTxMfx2xv6UD5zh0JlU9TBvy7ET0jDzzB41FvZvlhZDMU82tKCIfuxQ/80\nkjRbdk30beKlxV+1zVJjw+7nSZhYTKB8dwkhcNQUsei5SmdtvCecrQKqvMkgrK1f\njhzuQS6IElc0zcBujYtfqfKKnwKBgQDWhkoDifJW+UI0I0yjo6Om410zXq/SsnZy\nVeh7xE+UWDco1z7tP5QSHLOiOC4S901c4il1RCLrD1XjimnZDiPDY2jlG6ZEQBCU\nTgj8ZazBZVPuRFG71TRWMrJPrUTuRql2WxKVZiB+JStjaqZD1Iq/DmCS6YzkOKre\nlnS5zv6eswKBgBgElbtHddIe/pHNdAcAUu8kVt2GLpSMfaRbo/+muSVXLpEcQI1e\nZDn/zqXO2Tb3vRW0eMhqUV72J9S0wqq8tXQmVzL0RCxq2PuMpuoRHCnJPAZiKqaA\npLXvFiDD0W2jNwtTNDbRJPyqLCcT4CFKRFYq0ZK7LnjO5778mvhYO26HAoGAeHBo\neVgnQIEslA0FaBHlPTsFBmQwnkAnk8V7gpEShJyKS1mdMKGzRf/rMjYMWAWT34Px\n9q5MVGAFvnvlNUFk/rt/FrHRRRwassik7t8+gE2dM3YT1Tq76XEI/wauXoA5gANd\niZcOwwOnOmeT9R0M0HsH6TNKMI9IDzO1UORPu1UCgYEAoujzhKwIhjSTvyVrydNX\nYs2nm7O3G+IOIWl+Uh6ZEWyq7G8vbOMFsocSzusNKeHvInu3RUdzozY/5Oz/Oipt\nx6qkFVP/5OcVHjtIOdsyG2Zje8u8aekElWvPJI2OpW5ITh6hzPKHreAkiOT3LBUO\nmA6ZVXpaf4Q/vIt+lJnyVPw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-p3gks@sitegoldenpsycho.iam.gserviceaccount.com",
+  "client_id": "104303051115531890382",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-p3gks%40sitegoldenpsycho.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
