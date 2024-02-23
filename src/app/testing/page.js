@@ -603,7 +603,7 @@ var stats = {
 // testting
 // every 20 sec, change image
 
-const page = ( ) => {
+const Page = ( ) => {
 
     const searchParams =  useSearchParams() 
     console.log(searchParams.get("pseudo"));
@@ -704,4 +704,4 @@ const page = ( ) => {
     )
 }
 
-export default page
+export default Page
