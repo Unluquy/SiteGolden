@@ -32,7 +32,8 @@ import img_27 from '../../../public/img_27.png';
 import img_28 from '../../../public/img_28.png';
 import img_29 from '../../../public/img_29.png';
 import img_30 from '../../../public/img_30.png';
-import { useSearchParams, redirect  } from "next/navigation";
+import { useSearchParams,   } from "next/navigation";
+import { Suspense } from 'react'
 
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
@@ -73,6 +74,9 @@ const images = [
     img_29,
     img_30
 ];
+
+// click top left put minx miny
+// click bottom right put maxx maxy
 
 
 var eights = {
@@ -351,9 +355,10 @@ var stats = {
 // testting
 // every 20 sec, change image
 
-const Page = ( ) => {
+const ComponentPage = ( ) => {
 
     const searchParams =  useSearchParams() 
+    console.log(searchParams.get("pseudo"));
     const [currentIndex, setCurrentIndex] = useState(0);
     const imageRef = useRef(null);
     const router = useRouter()
@@ -383,10 +388,10 @@ const Page = ( ) => {
 
         if(isInTheEight(x,y,currentIndex)){
             stats[currentIndex+1].founds += 1
-           
+            // console.log("in");
         } else {
             stats[currentIndex+1].errors += 1
-
+            // console.log(x,y);
         }
     }
     
@@ -412,7 +417,8 @@ const Page = ( ) => {
                     }
                 }
 
-                const docRef = doc(db, "data", searchParams.get("pseudo") || "");
+
+                const docRef = doc(db, "data", searchParams.get("pseudo"));
                 console.log("ref");
                 setDoc(docRef, {stats: stats})
                   .then(() => {
@@ -428,21 +434,35 @@ const Page = ( ) => {
             else {
                 setCurrentIndex(currentIndex + 1);
 
-                // console.log("next");
+                
             }
         }, 20000)
         
         return () => clearInterval(intervalId);
     }, [currentIndex])
 
-
     return (
-        
+     
             <div className=" flex flex-col items-center justify-between "> 
-                <Image ref={imageRef} src={images[currentIndex]} alt='ImageTestAttention' className=' h-screen w-[100vh]' onClick={handleClick}/>
-            </div>
-        
-    )
+              <Image ref={imageRef} src={images[currentIndex]} alt='ImageTestAttention' className=' h-screen w-[100vh]' onClick={handleClick}/>
+          </div>
+      
+      
+      ) 
+
+    
 }
 
-export default Page
+
+
+const page = () => {
+  
+    return (
+      <Suspense fallback={<div>Loading...</div>}>
+        <ComponentPage></ComponentPage>
+      </Suspense>
+    
+    )
+};
+
+export default page
