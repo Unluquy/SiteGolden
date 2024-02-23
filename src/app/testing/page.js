@@ -383,10 +383,10 @@ const Page = ( ) => {
 
         if(isInTheEight(x,y,currentIndex)){
             stats[currentIndex+1].founds += 1
-            // console.log("in");
+           
         } else {
             stats[currentIndex+1].errors += 1
-            // console.log(x,y);
+
         }
     }
     
@@ -412,13 +412,6 @@ const Page = ( ) => {
                     }
                 }
 
-                console.log(stats);
-
-                // const docRef = await setDoc(collection(db, searchParams.get("pseudo") ,"data"), {
-                //     stats
-                // }).catch((error) => {
-                //   console.error("Error writing document: ", error);
-                // });
                 const docRef = doc(db, "data", searchParams.get("pseudo") || "");
                 console.log("ref");
                 setDoc(docRef, {stats: stats})
