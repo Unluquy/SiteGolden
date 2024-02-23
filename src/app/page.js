@@ -131,7 +131,7 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center p-24 h-screen [&>*]:m-4 ">
 
-        <h1 className=" text-5xl pb-24">Accueuil</h1>
+        <h1 className=" text-5xl pb-24">Accueil</h1>
         <input
           type="text"
           value={inputValue}
