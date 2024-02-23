@@ -690,7 +690,7 @@ const Page = ( ) => {
 
                 // console.log("next");
             }
-        }, 5000)
+        }, 20000)
         
         return () => clearInterval(intervalId);
     }, [currentIndex])
