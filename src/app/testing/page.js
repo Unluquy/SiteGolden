@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useRef }from 'react'
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/router';
 import img_1 from '../../../public/img_1.jpg';
 import img_2 from '../../../public/img_2.jpg';
 import img_3 from '../../../public/img_3.jpg';
