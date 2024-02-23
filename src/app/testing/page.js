@@ -34,8 +34,6 @@ import img_29 from '../../../public/img_29.png';
 import img_30 from '../../../public/img_30.png';
 import { useSearchParams, redirect  } from "next/navigation";
 
-import {Suspense} from "react";
-
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import firebase from '../firebase';
@@ -439,11 +437,11 @@ const Page = ( ) => {
 
 
     return (
-        <Suspense fallback={<>Loading...</>}>
+        
             <div className=" flex flex-col items-center justify-between "> 
                 <Image ref={imageRef} src={images[currentIndex]} alt='ImageTestAttention' className=' h-screen w-[100vh]' onClick={handleClick}/>
             </div>
-        </Suspense>
+        
     )
 }
 
