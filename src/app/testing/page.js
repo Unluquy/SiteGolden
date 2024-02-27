@@ -446,25 +446,24 @@ const ComponentPage = ( ) => {
     return (
      
             <div className=" flex flex-col items-center justify-between "> 
-              <Image ref={imageRef} src={images[currentIndex]} alt='ImageTestAttention' className=' h-screen w-[100vh]' onClick={handleClick}>
-        
-                        {eights[currentIndex+1].map((zone, index) => (
-            <div
-              key={index}
-              style={{
-                position: 'relative',
-                left: `${zone.minx}%`,
-                top: `${zone.miny}%`,
-                width: `${zone.maxx - zone.minx}%`,
-                height: `${zone.maxy - zone.miny}%`,
-                border: '2px solid red',
-                boxSizing: 'border-box'
-              }}
-            ></div>
-          ))}
-              
-            </Image>
-
+              <Image ref={imageRef} src={images[currentIndex]} alt='ImageTestAttention' className=' h-screen w-[100vh]' onClick={handleClick}></Image>
+            <div className=' h-screen w-[100vh]'>
+                {eights[currentIndex+1].map((zone, index) => (
+                <div
+                  key={index}
+                  style={{
+                    position: 'relative',
+                    left: `${zone.minx}%`,
+                    top: `${zone.miny}%`,
+                    width: `${zone.maxx - zone.minx}%`,
+                    height: `${zone.maxy - zone.miny}%`,
+                    border: '2px solid red',
+                    boxSizing: 'border-box'
+                  }}
+                ></div>
+              ))}  
+            </div>
+            
           </div>
       
       
