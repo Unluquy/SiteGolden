@@ -358,7 +358,7 @@ var stats = {
 const ComponentPage = ( ) => {
 
     const searchParams =  useSearchParams() 
-    console.log(searchParams.get("pseudo"));
+    console.log(eights[currentIndex]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const imageRef = useRef(null);
     const router = useRouter()
