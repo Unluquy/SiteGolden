@@ -447,7 +447,7 @@ const ComponentPage = ( ) => {
      
             <div className=" flex flex-col items-center justify-between "> 
               <Image ref={imageRef} src={images[currentIndex]} alt='ImageTestAttention' className=' h-screen w-[100vh]' onClick={handleClick}/>
-            {eights[currentIndex].map((zone, index) => (
+            {eights[currentIndex+1].map((zone, index) => (
             <div
               key={index}
               style={{
