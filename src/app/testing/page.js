@@ -446,12 +446,13 @@ const ComponentPage = ( ) => {
     return (
      
             <div className=" flex flex-col items-center justify-between "> 
-              <Image ref={imageRef} src={images[currentIndex]} alt='ImageTestAttention' className=' h-screen w-[100vh]' onClick={handleClick}/>
-            {eights[currentIndex+1].map((zone, index) => (
+              <Image ref={imageRef} src={images[currentIndex]} alt='ImageTestAttention' className=' h-screen w-[100vh]' onClick={handleClick}>
+        
+                        {eights[currentIndex+1].map((zone, index) => (
             <div
               key={index}
               style={{
-                position: 'absolute',
+                position: 'relative',
                 left: `${zone.minx}%`,
                 top: `${zone.miny}%`,
                 width: `${zone.maxx - zone.minx}%`,
@@ -461,6 +462,9 @@ const ComponentPage = ( ) => {
               }}
             ></div>
           ))}
+              
+            </Image>
+
           </div>
       
       
