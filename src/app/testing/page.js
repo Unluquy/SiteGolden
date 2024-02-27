@@ -89,14 +89,14 @@ var eights = {
       { minx: 90.3061, miny: 64.2857, maxx: 93.3673, maxy: 67.8571 }
     ],
     2: [
-      { minx: 59.6939, miny: 3.5714, maxx: 62.7551, maxy: 8.1633 },
-      { minx: 47.9592, miny: 7.9592, maxx: 51.0204, maxy: 11.7347 },
-      { minx: 56.6327, miny: 15.9184, maxx: 59.1837, maxy: 20.4082 },
-      { minx: 76.0204, miny: 53.0612, maxx: 76.5306, maxy: 56.1224 },
-      { minx: 92.8571, miny: 68.8776, maxx: 94.898, maxy: 71.9388 },
-      { minx: 90.8163, miny: 79.5918, maxx: 94.898, maxy: 82.1429 },
-      { minx: 65.3061, miny: 83.6735, maxx: 67.3469, maxy: 86.7347 },
-      { minx: 7.449, miny: 64.7959, maxx: 10.2041, maxy: 68.8776 }
+      { minx: 57.1939, miny: 3.0612, maxx: 60.9694, maxy: 8.2653},
+      { minx: 46.1735, miny: 8.0612, maxx: 48.7245, maxy: 11.7347 },
+      { minx: 54.4388, miny: 15.7143, maxx: 57.0918, maxy: 19.3878 },
+      { minx: 72.0918, miny: 51.3265, maxx: 74.0306, maxy: 54.4898 },
+      { minx: 90.1531, miny: 66.8367, maxx: 92.1939, maxy: 70.1020 },
+      { minx: 88.5204, miny: 77.3469, maxx: 91.6837, maxy: 79.3878 },
+      { minx: 63.4184, miny: 81.1224, maxx: 65.1531, maxy: 84.0816 },
+      { minx: 7.449, miny: 62.7959, maxx: 10.2041, maxy: 67.8776 }
     ],
     3: [
       { minx: 24.0306, miny: 6.7346, maxx: 25.6632, maxy: 9.7959 },
@@ -165,118 +165,117 @@ var eights = {
       { minx: 39.8469, miny: 91.4286, maxx: 43.9286, maxy: 98.5714 } ,
       { minx: 74.0306, miny: 62.7551, maxx: 77.6020, maxy: 66.9388 } ,
       { minx: 3.0102, miny: 40.2041, maxx: 6.4796, maxy: 45.3061 } ,
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 } ,
     ],
     12: [
       { minx: 29.0816, miny: 21.9388, maxx: 72.9592, maxy: 77.551 },
-      { minx: 46.4286, miny: 81.1224, maxx: 51.5306, maxy: 88.7755 }
+      { minx: 45.6633, miny: 79.2857, maxx: 50.1531, maxy: 86.3265 }
     ],
     13: [
-      { minx: 46.9388, miny: 22.551, maxx: 54.0816, maxy: 32.6531 },
-      { minx: 60.2041, miny: 68.3673, maxx: 61.7347, maxy: 70.9184 },
-      { minx: 61.7347, miny: 68.8776, maxx: 62.7551, maxy: 71.4286 },
-      { minx: 16.3265, miny: 59.1837, maxx: 18.3673, maxy: 63.2653 },
-      { minx: 62.7551, miny: 73.4694, maxx: 66.3265, maxy: 75.5102 }
+      { minx: 45.6633, miny: 21.7347, maxx: 52.1939, maxy: 31.9388 },
+      { minx: 58.1122, miny: 66.4286, maxx: 59.5408, maxy: 68.9796 },
+      { minx: 59.3367, miny: 66.5306, maxx: 60.9694, maxy: 68.7755 },
+      { minx: 15.5612, miny: 57.5510, maxx: 18.1122, maxy: 61.5306 },
+      { minx: 60.6633, miny: 71.4286, maxx: 64.0306, maxy: 73.5714 }
     ],
     14: [
-      { minx: 30.6122, miny: 52.551, maxx: 37.2449, maxy: 64.7959 },
-      { minx: 38.7755, miny: 54.5918, maxx: 44.3878, maxy: 66.3265 },
-      { minx: 66.8367, miny: 73.9796, maxx: 68.8776, maxy: 77.0408 },
-      { minx: 20.4082, miny: 79.0816, maxx: 26.0204, maxy: 91.8367 }
+      { minx: 29.5408, miny: 51.0204, maxx: 35.7653, maxy: 63.0612 },
+      { minx: 37.0918, miny: 52.6531, maxx: 42.6020, maxy: 64.4898 },
+      { minx: 64.6429, miny: 71.5306, maxx: 66.7857, maxy: 74.6939 },
+      { minx: 20.7653, miny: 76.1224, maxx: 26.0204, maxy: 88.8367 }
     ],
     15: [
-      { minx: 80.102, miny: 61.2245, maxx: 87.2449, maxy: 51.0204 },
-      { minx: 11.7347, miny: 52.551, maxx: 16.3265, maxy: 58.1633 },
-      { minx: 1.4286, miny: 51.0204, maxx: 5.6122, maxy: 57.6531 },
-      { minx: 37.7551, miny: 72.9592, maxx: 45.9184, maxy: 76.5306 },
-      { minx: 60.2041, miny: 79.0816, maxx: 64.7959, maxy: 81.7347 }
+      { minx: 77.3980, miny: 34.8980, maxx: 84.5408, maxy: 48.6735 },
+      { minx: 11.7347, miny: 50.551, maxx: 16.3265, maxy: 57.1633 },
+      { minx: 1.4286, miny: 49.0204, maxx: 5.6122, maxy: 57.6531 },
+      { minx: 37.2959, miny: 70.4082, maxx: 44.4388, maxy: 75.0000 },
+      { minx: 58.2143, miny: 76.9388, maxx: 62.9082, maxy: 79.1837 }
     ],
     16: [
       { minx: 13.7755, miny: 15.3061, maxx: 16.3265, maxy: 19.898 },
-      { minx: 47.9592, miny: 34.1837, maxx: 57.1429, maxy: 48.9796 },
-      { minx: 54.0816, miny: 46.4286, maxx: 62.2449, maxy: 55.6122 },
-      { minx: 10.7143, miny: 49.4898, maxx: 16.8367, maxy: 54.0816 },
-      { minx: 44.898, miny: 80.6122, maxx: 50, maxy: 87.7551 }
+      { minx: 45.8673, miny: 30.1837, maxx: 56.9898, maxy: 43.9796 },
+      { minx: 52.3980, miny: 45.7143, maxx: 60.1531, maxy: 54.1837 },
+      { minx: 10.7143, miny: 48.4898, maxx: 16.8367, maxy: 52.0816 },
+      { minx: 43.8265, miny: 78.1633, maxx: 48.2143, maxy: 85.2041 }
     ],
     17: [
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 }
+      { minx: 5.7653, miny: 12.9592, maxx: 7.9082, maxy: 16.2245 },
+      { minx: 22.7041, miny: 22.0408, maxx: 25.2551, maxy: 26.5306 },
+      { minx: 3.4184, miny: 36.6327, maxx: 5.5612, maxy: 40.0000 },
+      { minx: 2.2959, miny: 40.2041, maxx: 9.7449, maxy: 51.3265 },
+      { minx: 3.3163, miny: 52.0408, maxx: 7.8061, maxy: 59.2857 },
+      { minx: 73.6224, miny: 4.2857, maxx: 87.5000, maxy: 30.5102},
+      { minx: 67.2959, miny: 21.6327, maxx: 68.7245, maxy: 23.9796 },
+      { minx: 57.9082, miny: 40.5102, maxx: 59.8469, maxy: 43.9796 },
+      { minx: 88.8265, miny: 40.7143, maxx: 96.2755, maxy: 51.1224 },
+      { minx: 90.8673, miny: 52.1429, maxx: 95.6633, maxy: 61.5306 },
+      { minx: 51.8878, miny:43.3673, maxx: 54.9490, maxy: 47.3469 }
     ],
     18: [
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 }
+      { minx:74.4388, miny: 23.2653, maxx: 79.2347, maxy: 31.3265 },
+      { minx: 76.2755, miny: 46.6327, maxx: 83.6224, maxy: 49.7959 },
+      { minx: 41.1735, miny: 29.7959, maxx: 65.4592, maxy: 68.7755 },
+      { minx: 34.1327, miny: 71.5306, maxx: 37.8061, maxy: 77.3469},
+      { minx: 57.8061, miny: 94.8980, maxx: 68.0102, maxy: 99.5918 }
     ],
     19: [
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 }
+      { minx: 60.8673, miny: 16.2245, maxx: 62.9082, maxy: 19.3878 },
+      { minx: 48.6224, miny: 35.5102, maxx: 52.0918, maxy: 40.2041 },
+      { minx: 41.8878, miny: 35.1020, maxx: 44.0306, maxy: 38.2653 },
+      { minx: 25.6633, miny: 53.8776, maxx: 27.9082, maxy: 57.2449 },
+      { minx: 21.3776, miny: 56.7347, maxx: 24.2347, maxy: 60.4082 },
+      { minx: 76.3776, miny: 50.2041, maxx: 78.9286, maxy: 53.9796 },
+      { minx: 71.5816, miny: 82.4490, maxx: 74.8469, maxy: 84.8980 },
+      { minx: 39.1327, miny: 50.6122, maxx: 41.2755, maxy: 53.6735 },
     ],
     20: [
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 }
+      { minx: 63.5204, miny: 11.4286, maxx: 70.9694, maxy: 22.9592 },
+      { minx: 64.3367, miny: 30.8163, maxx: 67.1939, maxy: 34.7959 },
+      { minx: 32.9082, miny: 61.1224, maxx: 41.0714, maxy: 72.4490 },
+      { minx: 56.4796, miny: 60.9184, maxx: 64.2347, maxy: 71.6327 },
+      { minx:0.8673, miny: 8.3673, maxx: 3.8265, maxy: 12.1429 },
+      { minx: 80.9694, miny: 91.3265, maxx: 83.5204, maxy: 94.7959 }
     ],
     21: [
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 }
+      { minx: 52.0918, miny: 4.4898, maxx: 57.3980, maxy: 12.3469 },
+      { minx: 32.1939, miny: 33.2653, maxx: 38.9286, maxy: 45.3061 },
+      { minx: 30.7653, miny: 61.5306, maxx: 39.1327, maxy: 75.4082 },
+      { minx: 41.7857, miny: 18.0612, maxx: 68.0102, maxy: 65.5102 },
+      { minx: 75.3571, miny: 70.7143, maxx: 77.6020, maxy: 75.3061 },
+      { minx: 91.3776, miny: 27.9592, maxx: 94.1327, maxy: 33.6327 },
+      { minx: 27.8061, miny: 89.1837, maxx: 30.1531, maxy: 93.0612 }
     ],
     22: [
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 }
+      { minx: 0.3571, miny: 10.5102, maxx: 8.6224, maxy: 20.6122 },
+      { minx: 37.3980, miny: 13.9796, maxx: 41.6837, maxy: 18.3673 },
+      { minx: 47.5000, miny: 41.5306, maxx: 52.8061, maxy: 48.9796 },
+      { minx: 44.6429, miny: 35.7143, maxx: 49.9490, maxy: 40.3061 },
+      { minx: 52.3980, miny: 95.7143, maxx: 57.6020, maxy: 99.3878 }
     ],
     23: [
-      { minx: 53.5714, miny: 47.449, maxx: 60.2041, maxy: 56.1224 },
-      { minx: 101.0204, miny: 1.5306, maxx: 103.0612, maxy: 4.5918 }
+      { minx: 96.7857, miny: 1.0204, maxx: 99.6224, maxy: 4.3878 },
+      { minx: 50.9694, miny: 45.5102, maxx: 57.6020, maxy: 55.7143},
+      { minx: 10.1531, miny: 76.5306, maxx: 14.0306, maxy: 82.6531 }
     ],
     24: [
-      { minx: 0.9184, miny: 71.9388, maxx: 11.7347, maxy: 87.7551 },
-      { minx: 5.6122, miny: 37.7551, maxx: 9.1837, maxy: 43.3673 },
-      { minx: 60.2041, miny: 83.6735, maxx: 65.3061, maxy: 89.2857 },
-      { minx: 57.1429, miny: 30.102, maxx: 63.2653, maxy: 36.2245 }
+      { minx: 0.9184, miny: 68.9388, maxx: 11.7347, maxy: 85.7551 },
+      { minx: 4.7449, miny: 36.1224, maxx: 9.0306, maxy: 42.0408 },
+      { minx: 59.0306, miny: 80.6122, maxx: 63.6224, maxy: 87.4490 },
+      { minx: 55.3571, miny: 29.0816, maxx: 61.6837, maxy: 35.4082},
+      { minx: 54.9490, miny: 17.5510, maxx: 63.7245, maxy: 28.2653 },
     ],
     25: [
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 },
-      { minx: 15.5102, miny: 2.3469, maxx: 17.551, maxy: 5.3061 }
+      { minx: 39.7449, miny: 5.0000, maxx: 41.8878, maxy: 8.3673 },
+      { minx: 44.8469, miny: 7.2449, maxx: 46.6837, maxy: 10.5102 },
+      { minx: 30.8673, miny: 37.6531, maxx: 37.5000, maxy: 41.6327 },
+      { minx: 86.9898, miny: 1.9388, maxx: 89.1327, maxy: 5.4082 },
+      { minx: 87.0918, miny: 8.2653, maxx: 88.7245, maxy: 10.5102 },
+      { minx: 31.0714, miny: 10.9184, maxx: 33.0102 , maxy: 14.4694 },
+      { minx: 77.6020, miny: 85.3061, maxx: 80.3571, maxy: 88.6735 }
     ],
     26: [
-      { minx: 36.7347, miny: 72.449, maxx: 39.2857, maxy: 76.5306 },
-      { minx: 7.6531, miny: 73.9796, maxx: 12.7551, maxy: 80.102 },
-      { minx: 94.3878, miny: 73.9796, maxx: 98.9796, maxy: 80.6122 }
+      { minx: 7.8061, miny: 72.2449, maxx: 12.7041, maxy: 78.1633 },
+      { minx: 35.8673, miny: 70.3061, maxx: 38.4184, maxy: 73.9796 },
+      { minx: 90.7653, miny: 71.4286, maxx: 95.4592, maxy: 77.5510 }
     ],
     27: [
       { minx: 31.4796, miny: 2.1429, maxx: 34.3367, maxy: 6.7347 },
@@ -306,7 +305,7 @@ var eights = {
       { minx: 95.2551, miny: 9.8980, maxx: 98.0102, maxy: 14.1837 },
     ],
     30: [
-      { minx: 61.2245, miny: 5.102, maxx: 65.8163, maxy: 10.7143 },
+      { minx: 57.6020, miny: 4.1837, maxx: 62.0918, maxy: 10.6122 },
       { minx: 30.6122, miny: 11.7347, maxx: 74.4898, maxy: 87.2449 },
       { minx: 19.898, miny: 3.0612, maxx: 25, maxy: 10.7143 }
     ]
@@ -347,7 +346,7 @@ var stats = {
 
 
 // const images = [
-//     img_29
+//     img_1, img_2
 // ];
 
 
@@ -362,8 +361,38 @@ const ComponentPage = ( ) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const imageRef = useRef(null);
     const router = useRouter()
-    eights[currentIndex+1].map((e)=> (console.log(e)))
+    // eights[currentIndex+1].map((e)=> (console.log(e)))
     //eights[currentIndex].map((zone, index) => (console.log(zone,index)))
+
+    useEffect(() => {
+      const image = imageRef.current;
+      const imageWidth = image.width;
+      const imageHeight = image.height;
+  
+      eights[currentIndex+1].forEach(zone => {
+        const zoneElement = document.createElement('div');
+        zoneElement.style.position = 'absolute';
+        zoneElement.style.left = `${(zone.minx / 100) * imageWidth}px`;
+        zoneElement.style.top = `${(zone.miny / 100) * imageHeight}px`;
+        zoneElement.style.width = `${((zone.maxx - zone.minx) / 100) * imageWidth}px`;
+        zoneElement.style.height = `${((zone.maxy - zone.miny) / 100) * imageHeight}px`;
+        zoneElement.style.border = '2px solid red';
+        zoneElement.style.pointerEvents = 'none';
+        image.parentElement.appendChild(zoneElement);
+      });
+  
+      return () => {
+        eights[currentIndex+1].forEach(() => {
+          image.parentElement.removeChild(image.parentElement.lastChild);
+        });
+      };
+    }, [currentIndex]);
+
+
+
+
+
+
 
 // verify if cursor is clicking an eight
     const isInTheEight = (x, y, image) => {
@@ -385,7 +414,7 @@ const ComponentPage = ( ) => {
         const x = ((event.clientX - imageRect.left) / imageRect.width * 100).toFixed(4);
         const y = ((event.clientY - imageRect.top) / imageRect.height * 100).toFixed(4);
     
-        console.log(`Clicked at position (x:${x}, y:${y}) relative to the image.`);
+        //console.log(`Clicked at position (x:${x}, y:${y}) relative to the image.`);
 
 
         if(isInTheEight(x,y,currentIndex)){
@@ -399,11 +428,12 @@ const ComponentPage = ( ) => {
     
 
     useEffect(() => {
+      //console.log("id",currentIndex);
         const intervalId = setInterval(async () => {
-            
             if(currentIndex === images.length - 1) {
                 clearInterval(intervalId)
-                console.log("reset");
+                
+                
 
 
                 for (var key in stats) {
@@ -421,7 +451,7 @@ const ComponentPage = ( ) => {
 
 
                 const docRef = doc(db, "data", searchParams.get("pseudo"));
-                console.log("ref");
+                
                 setDoc(docRef, {stats: stats})
                   .then(() => {
                     console.log("Document successfully written!");
@@ -431,11 +461,11 @@ const ComponentPage = ( ) => {
                     
                     console.error("Error writing document: ", error );
                   });
-                  router.push("/")
+                router.push("/")
             } 
             else {
                 setCurrentIndex(currentIndex + 1);
-
+                
                 
             }
         }, 20000)
@@ -444,28 +474,33 @@ const ComponentPage = ( ) => {
     }, [currentIndex])
 
     return (
-     
-            <div className=" flex flex-col items-center justify-between "> 
-              <Image ref={imageRef} src={images[currentIndex]} alt='ImageTestAttention' className=' h-screen w-[100vh]' onClick={handleClick}></Image>
-            <div className=' h-screen w-[100vh]'>
-                {eights[currentIndex+1].map((zone, index) => (
-                <div
-                  key={index}
-                  style={{
-                    position: 'absolute',
-                    left: `${zone.minx}%`,
-                    top: `${zone.miny}%`,
-                    width: `${zone.maxx - zone.minx}%`,
-                    height: `${zone.maxy - zone.miny}%`,
-                    border: '2px solid red',
-                    boxSizing: 'border-box'
-                  }}
-                ></div>
-              ))}  
-            </div>
-            
-          </div>
       
+          //   <div className=" flex flex-col items-center justify-between "> 
+          //     <Image ref={imageRef} src={images[currentIndex]} alt='ImageTestAttention' className=' h-screen w-[100vh]' onClick={handleClick}></Image>
+          //     <div className=' h-screen w-[100vh] bg-teal-800/25'>
+          //       <p>z</p>
+          //         {eights[currentIndex+1].map((zone, index) => (
+          //           <div
+          //           key={index}
+          //           style={{
+          //             position: 'absolute',
+          //             left: `${(zone.minx / 100) * 100}%`,
+          //             top: `${(zone.miny / 100) * 100}%`,
+          //             width: `${(zone.maxx - zone.minx) / 100 * 100}%`,
+          //             height: `${(zone.maxy - zone.miny) / 100 * 100}%`,
+          //             border: '2px solid red',
+          //             boxSizing: 'border-box'
+          //           }}
+          //         ></div>
+          //       ))}  
+          //     </div>
+            
+          // </div>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+            <div style={{ position: 'relative', maxWidth: '100%' }}>
+              <Image ref={imageRef} src={images[currentIndex]} alt='ImageTestAttention' className=' h-screen w-[100vh]' onClick={handleClick}></Image>
+            </div>
+          </div>
       
       ) 
 
