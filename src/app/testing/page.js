@@ -358,12 +358,12 @@ var stats = {
 const ComponentPage = ( ) => {
 
     const searchParams =  useSearchParams() 
-    console.log(eights[currentIndex]);
+    
     const [currentIndex, setCurrentIndex] = useState(0);
     const imageRef = useRef(null);
     const router = useRouter()
-
-    eights[currentIndex].map((zone, index) => (console.log(zone,index)))
+    console.log(eights[currentIndex]);
+    //eights[currentIndex].map((zone, index) => (console.log(zone,index)))
 
 // verify if cursor is clicking an eight
     const isInTheEight = (x, y, image) => {
