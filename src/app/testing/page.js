@@ -362,7 +362,7 @@ const ComponentPage = ( ) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const imageRef = useRef(null);
     const router = useRouter()
-    console.log(eights[currentIndex+1]);
+    eights[currentIndex+1].map((e)=> (console.log(e)))
     //eights[currentIndex].map((zone, index) => (console.log(zone,index)))
 
 // verify if cursor is clicking an eight
