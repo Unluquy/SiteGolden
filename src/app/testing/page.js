@@ -452,7 +452,7 @@ const ComponentPage = ( ) => {
                 <div
                   key={index}
                   style={{
-                    position: 'relative',
+                    position: 'absolute',
                     left: `${zone.minx}%`,
                     top: `${zone.miny}%`,
                     width: `${zone.maxx - zone.minx}%`,
