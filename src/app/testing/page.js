@@ -445,6 +445,20 @@ const ComponentPage = ( ) => {
      
             <div className=" flex flex-col items-center justify-between "> 
               <Image ref={imageRef} src={images[currentIndex]} alt='ImageTestAttention' className=' h-screen w-[100vh]' onClick={handleClick}/>
+            {eights.map((zone, index) => (
+            <div
+              key={index}
+              style={{
+                position: 'absolute',
+                left: `${zone.minx}%`,
+                top: `${zone.miny}%`,
+                width: `${zone.maxx - zone.minx}%`,
+                height: `${zone.maxy - zone.miny}%`,
+                border: '2px solid red',
+                boxSizing: 'border-box'
+              }}
+            ></div>
+          ))}
           </div>
       
       
