@@ -364,7 +364,7 @@ const ComponentPage = ( ) => {
     // eights[currentIndex+1].map((e)=> (console.log(e)))
     //eights[currentIndex].map((zone, index) => (console.log(zone,index)))
 
-    useEffect(() => {
+/*    useEffect(() => {
       const image = imageRef.current;
       const imageWidth = image.width;
       const imageHeight = image.height;
@@ -386,7 +386,7 @@ const ComponentPage = ( ) => {
           image.parentElement.removeChild(image.parentElement.lastChild);
         });
       };
-    }, [currentIndex]);
+    }, [currentIndex]); */
 
 
 
